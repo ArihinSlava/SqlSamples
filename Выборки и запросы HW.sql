@@ -18,3 +18,6 @@ WHERE age =(SELECT MIN(age) FROM Employee);
 SELECT first_name, MAX(age) FROM employee
 GROUP BY first_name HAVING COUNT(first_name) > 1
 ORDER BY 2;
+
+
+
